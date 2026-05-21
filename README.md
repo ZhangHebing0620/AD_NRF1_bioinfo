@@ -11,6 +11,7 @@ This repository contains Python scripts for all analyses in this study:
 6.  MCODE module identification and K-Core parameter sensitivity analysis
 7.  Weighted voting algorithm for multi-dataset consensus gene selection
 8.  Leave-One-Out Cross-Validation (LOOCV) for model stability
+9.  Graph propagation on PPI network for topology-aware gene ranking
 
 ## Usage
 Run each script with Python 3:
@@ -23,3 +24,4 @@ python clinical_correlation.py
 python mcode_stability.py
 python weighted_voting.py
 python LOOCV.py
+python graph_propagation.py
